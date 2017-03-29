@@ -1,0 +1,96 @@
+.pm-date {
+  width: 95px;
+  padding-left: 6px;
+  overflow: hidden;
+}
+.milestones-widget-date {
+  width: 120px;
+  padding-left: 7px;
+  width: 120px;
+  padding-left: 7px;
+  align-self: self-start;
+  margin: 7px 0;
+}
+.pm-oval {
+  width: 66px; 
+  height: 88px;
+  border-radius: 50%;
+  background: #f2eef5;
+  -moz-transform: scaleY(0.4);
+  -webkit-transform: scaleY(0.4);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  padding-top: 20px;
+}
+.pm-start_day {
+  margin-left: -5px;
+  font: 48px/50px Monserrat,Arial;
+  font-weight: bold;
+  text-align: center;
+  -moz-transform: scaleY(2.5);
+  -webkit-transform: scaleY(2.5);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  z-index: 3;
+}
+.pm-end_day {
+  position: relative;
+  left: 28px;
+  top: -20px;
+  width: 10px;
+  margin: -70px -50px 0 0;
+  font: 18px/20px Monserrat,Arial;
+  font-weight: bold;
+  text-align: center;
+  -moz-transform: scaleY(2.5);
+  -webkit-transform: scaleY(2.5);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+.pm-month {
+  font: 14px/14px Monserrat,Arial;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -2px;
+  margin-left: -20px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.milestones-widget, .milestone-heading{	
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.milestone-heading-pointer{
+  cursor: pointer;
+}
+.milestone-title{
+  vertical-align: top;	
+  margin-top: 10px;	
+  margin-left: 5px;
+  color: #683064;
+  display: block;
+  font-weight:bolder;
+}
+.milestone-body{
+  margin: 0 0 10px 13%;
+}
+
+.accordion-heading{
+  border-top: 1px solid #95989a;
+}
+.milestones-widget{
+  border-top: 1px solid #5b5377;
+}
+.title-container{
+  width: 75%;
+}
+/** widget **/
+.pretty-box-light .pm-oval{ background: #937ba8; }
+.milestones-widget .pm_widget-title-container{ margin-left: 7px; }
